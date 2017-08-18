@@ -63,7 +63,7 @@
   color: #06447e;
 }
 .light_content .banner{
-  height: 384px;
+  height: 400px;
   overflow: hidden;
 }
 .light_content .banner img{
@@ -164,7 +164,6 @@
   margin-top: 5px
 }
 .team .team_content{
-  text-indent: 24px;
   padding-left: 15px;
   padding-right: 10px;
   text-align: justify;

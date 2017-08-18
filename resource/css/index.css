@@ -9,6 +9,9 @@ body{
 .home_slider .swiper-container div{
   height: 100%;
 }
+.home_slider .swiper-container div img{
+  width: 100%;
+}
 .home_slider .pagination{
   z-index: 1;
   position: absolute;

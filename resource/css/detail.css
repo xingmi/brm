@@ -1,6 +1,6 @@
 #show {
   position: relative;
-  height: 320px;
+  height: 600px;
   width: 996px;
   margin: 0 auto;
 }
@@ -14,7 +14,7 @@
 #show .img {
   position: absolute;
   width: 996px;
-  height: 320px;
+  height: 600px;
   overflow: hidden
 }
 #show .img SPAN {
@@ -33,7 +33,7 @@
   display: block;
   height: 14px;
   overflow: hidden;
-  top: 295px;
+  top: 570px;
   left: 50%
 }
 #show .btns B I {
@@ -67,7 +67,7 @@
   width: 60px;
   height: 60px;
   overflow: hidden;
-  top: 130px;
+  top: 270px;
   cursor: pointer;
 }
 
@@ -88,7 +88,7 @@
   filter: alpha(opacity=50);
   -moz-opacity: 0.5;
   -khtml-opacity: 0.5;
-  height: 320px;
+  height: 600px;
   position: absolute;
   background: #000;
   overflow: hidden
