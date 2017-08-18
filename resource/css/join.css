@@ -1,0 +1,34 @@
+.banner{
+  background: #e7eaee;
+  text-align: center;
+  height: 327px;
+  overflow: hidden;
+}
+.content{
+  margin-top: 40px;
+}
+.content .position{
+  width: 50%;
+  float: left;
+  width: 448px;
+}
+.content .position:first-child{
+  padding-right: 50px;
+}
+.content .position:last-child{
+  padding-left: 50px;
+}
+.content .position h3{
+  font-size: 18px;
+  color: #06447e;
+}
+.content .position h4{
+  font-size: 14px;
+  color: #06447e;
+  margin: 10px 0 20px 0;
+}
+.content .position p{
+  margin-top: 10px;
+  padding-left: 15px;
+  background:url('/resource/images/join/icon.jpg') no-repeat 0 4px;
+}

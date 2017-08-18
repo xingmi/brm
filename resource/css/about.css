@@ -1,0 +1,47 @@
+.banner img{
+  width: 100%;
+  display: block;
+}
+.about{
+  margin-top: 20px;
+}
+.about .team{
+  width: 50%;
+  position: relative;
+  float: left;
+}
+.about .team .header{
+  padding-left: 100px;
+  position: relative;
+  height: 90px;
+  overflow: hidden;
+}
+.about .team .header i{
+  position: absolute;
+  top : 5px;
+  left: 15px;
+  width: 72px;
+  height: 72px;
+  background:url('/resource/images/about/icon.png') no-repeat;
+}
+.about .team .header h3{
+  font-size: 18px; 
+  color: #06447e;
+  margin-top: 15px;
+}
+.about .team .header h4{
+  font-size: 14px;
+  color: #06447e;
+  margin-top: 5px
+}
+.about .team .content{
+  text-indent: 24px;
+  padding-left: 15px;
+  padding-right: 10px;
+  text-align: justify;
+  line-height: 24px;
+}
+.banner2{ 
+  text-align: center;
+  margin: 40px auto;
+}

@@ -1,0 +1,174 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.4.1 
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+ul,ol{
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-size: 12px;
+}
+body{
+  font-size: 12px;
+  color: #9d9d9d;
+}
+.clear_fix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clear_fix{*+height:1%;}
+
+.container{
+  width: 996px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav{
+  height: 100px;
+  position: relative;
+}
+.nav .logo{
+  position: absolute;
+  background: url('/resource/images/common/logo.jpg') no-repeat;
+  width: 115px;
+  height: 41px;
+  display: block;
+  top: 30px;
+  left: 0;
+}
+.nav .nav_list{
+  position: absolute;
+  top: 52px;
+  right: 0;
+}
+.nav .nav_list li{
+  float: left;
+  font-size: 14px;
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+}
+.nav .nav_list li a{
+  color: #a5a5a5;
+  display: block;
+  height: 100%;
+}
+.nav .nav_list li a:hover,
+.nav .nav_list li a.current{
+  color: #06457e;
+}
+
+.footer{
+  margin-top: 50px;
+  height: 44px;
+  text-align: right;
+  background-color: #f6f6f6;
+  line-height: 44px;
+}
+
+.footer .contact_us_link{
+  position: absolute;
+  top: 11px;
+  left: 0;
+}
+.footer .contact_us_link a{
+  width: 22px;
+  height: 22px;
+  display: block;
+  float: left;
+  margin-right: 25px;
+}
+.footer .contact_us_link a.weibo{
+  background:url('/resource/images/common/weibo.png') no-repeat;
+}
+.footer .contact_us_link a.wechat{
+  background:url('/resource/images/common/wechat.png') no-repeat;
+}

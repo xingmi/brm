@@ -1,0 +1,172 @@
+.service_detail .nav{
+  width: 146px;
+  float: left;
+  height: auto;
+  min-height: 600px;
+}
+.service_detail .content{
+  width: 850px;
+  float: left;
+}
+
+.service_detail .nav ul{
+  width: 118px;
+  // background: #f8f8f8;
+}
+.service_detail .nav li div.mode{
+  height: 70px;
+  background: #f8f8f8;
+  position: relative;
+}
+.service_detail .nav li div.mode span{
+  display: block;
+  width: 108px;
+  height: 117px;
+  line-height: 118px;
+  text-align: center;
+  font-size: 18px;
+  color: #06447e;
+  letter-spacing: 10px;
+  padding-left: 10px;
+  background: url('/resource/images/service/icon.png') no-repeat;
+  position: absolute;
+  margin-top: -58px;
+}
+.service_detail .nav li div.item{
+  height: 54px;
+  color: #a3a3a3;
+  text-align: center;
+  line-height: 54px;
+  cursor: pointer;
+  background: #f8f8f8;
+}
+.service_detail .nav li div.item:hover,
+.service_detail .nav li div.current{
+  background: #dfeaf5;
+  color: #06447e;
+}
+
+.service_detail .nav li.link{
+  height: 115px;
+  text-align: center;
+}
+.service_detail .nav li.link a{
+  color: #a3a3a3;
+  display: block;
+  height: 54px;
+  line-height: 54px;
+  cursor: pointer;
+}
+
+.service_detail .nav li.link a:hover{
+  background: #dfeaf5;
+  color: #06447e;
+}
+.light_content .banner{
+  height: 384px;
+  overflow: hidden;
+}
+.light_content .banner img{
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.light_content .sub_nav{
+  background: #f3f4f5;
+}
+.light_content .sub_nav li{
+  height: 34px;
+  float: left;
+  width: 170px;
+  text-align: center;
+  line-height: 34px;
+  
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.light_content .sub_nav.sub_nav4 li{
+  width: 212px;
+}
+
+.light_content .sub_nav.sub_nav6 li{
+  width: 141px;
+}
+
+.light_content .sub_nav li:hover,
+.light_content .sub_nav li.current{
+  color: #06447e;
+}
+
+.sub_content{
+  margin-top: 35px;
+  line-height: 26px;
+}
+.sub_content div{
+  display: none;
+}
+.sub_content .icon_message{
+  padding-left: 15px;
+  background: url(/resource/images/join/icon.jpg) no-repeat 0 4px;
+  margin-bottom: 20px;
+  line-height: 18px;
+  color: #225290;
+}
+.sub_content .icon_message2{
+  padding-left: 15px;
+  background: url(/resource/images/join/icon.jpg) no-repeat 0 4px;
+  margin-bottom: 20px;
+  line-height: 18px;
+}
+.sub_content .item_message{
+  margin-bottom: 10px;
+}
+.sub_content .item_message span{
+  padding-left: 14px;
+  color: #436692;
+  display: inline-block;
+  width: 80px;
+}
+.light_content>div{
+  display: none;
+}
+
+.team_list{
+  margin-top: 30px;
+}
+.team{
+  width: 50%;
+  position: relative;
+  float: left;
+}
+.team .header{
+  padding-left: 100px;
+  position: relative;
+  height: 90px;
+  overflow: hidden;
+}
+.team .header i{
+  position: absolute;
+  top : 5px;
+  left: 15px;
+  width: 72px;
+  height: 72px;
+  background:url('/resource/images/about/icon.png') no-repeat;
+}
+.team .header h3{
+  font-size: 18px; 
+  color: #06447e;
+  margin-top: 15px;
+}
+.team .header h4{
+  font-size: 14px;
+  color: #06447e;
+  margin-top: 5px
+}
+.team .team_content{
+  text-indent: 24px;
+  padding-left: 15px;
+  padding-right: 10px;
+  text-align: justify;
+  line-height: 24px;
+}

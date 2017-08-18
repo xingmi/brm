@@ -1,0 +1,60 @@
+body{
+  display: none
+}
+.home_slider{
+  position: relative;
+  overflow: hidden;
+}
+.home_slider .swiper-container,
+.home_slider .swiper-container div{
+  height: 100%;
+}
+.home_slider .pagination{
+  z-index: 1;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+.home_slider .pagination span{
+  margin-left: 10px;
+  float: left;
+  display: block;
+  border:1px solid #a9a9a9;
+  background: #396b9d;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  cursor: pointer;
+}
+.home_slider .pagination span.swiper-visible-switch{
+  background: #FFF;
+}
+.home_footer{
+  overflow: hidden;
+  height: 44px;
+  line-height: 44px;
+}
+.home_footer .swiper_text{
+  display: inline-block;
+  width: 550px;
+}
+.home_footer .contact_us_link{
+  position: absolute;
+  top: 11px;
+  right: 0;
+}
+.home_footer .contact_us_link a{
+  width: 22px;
+  height: 22px;
+  display: block;
+  float: left;
+  margin-left: 25px;
+}
+.home_footer .contact_us_link a.weibo{
+  background:url('/resource/images/common/weibo.png') no-repeat;
+}
+.home_footer .contact_us_link a.wechat{
+  background:url('/resource/images/common/wechat.png') no-repeat;
+}

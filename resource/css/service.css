@@ -1,0 +1,28 @@
+.banner{
+  background: #ced5e1;
+  text-align: center;
+  height: 324px;
+  overflow: hidden;
+}
+.list{
+  padding: 0 110px;
+  width: 776px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.list a{
+  margin-right: 101px;
+  width: 108px;
+  height: 117px;
+  line-height: 118px;
+  text-align: center;
+  font-size: 18px;
+  color: #06447e;
+  letter-spacing: 10px;
+  padding-left: 10px;
+  float: left;
+  background: url('/resource/images/service/icon.png') no-repeat;
+}
+.list a:last-child{
+  margin-right: 0;
+}

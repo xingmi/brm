@@ -1,0 +1,12 @@
+.banner img{
+  width: 100%;
+}
+.contact_content {
+  margin-top: 20px;
+  padding-bottom: 300px;
+}
+.contact_content p{
+  font-size: 16px;
+  line-height: 30px;
+  color: #06447e;
+}

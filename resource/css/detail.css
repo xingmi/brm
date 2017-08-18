@@ -1,0 +1,117 @@
+#show {
+  position: relative;
+  height: 320px;
+  width: 996px;
+  margin: 0 auto;
+}
+#show a {
+  float: left;
+  display: inline;
+}
+#show a  img{
+  width: 996px;
+}
+#show .img {
+  position: absolute;
+  width: 996px;
+  height: 320px;
+  overflow: hidden
+}
+#show .img SPAN {
+  position: absolute;
+  width: 19999px;
+  display: block
+}
+#show .btns {
+  z-index: 10;
+  position: absolute;
+  width: 996px
+}
+#show .btns B {
+  position: absolute;
+  width: 100px;
+  display: block;
+  height: 14px;
+  overflow: hidden;
+  top: 295px;
+  left: 50%
+}
+#show .btns B I {
+  width: 10px;
+  background: #414140;
+  float: left;
+  height: 10px;
+  font-size: 0px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-right: 6px;
+  border: #414140 2px solid;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px
+}
+#show .btns B I:hover {
+  background: #a7a7a6
+}
+#show .btns B I.on {
+  background: #3cd2f1;
+  cursor: default
+}
+#show .btns B I.on:hover {
+  background: #3cd2f1;
+  cursor: default
+}
+
+#show .btns s {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  top: 130px;
+  cursor: pointer;
+}
+
+#show .btns S.prev {
+  left: -100px;
+  background: url('/resource/images/project/arrow_left.png') no-repeat;
+}
+
+#show .btns S.next {
+  right: -100px;
+  background: url('/resource/images/project/arrow_right.png') no-repeat;
+}
+.show-hover#show .btns S {
+  display: block
+}
+.masks {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  height: 320px;
+  position: absolute;
+  background: #000;
+  overflow: hidden
+}
+.project_content{
+  margin-top: 30px;
+  padding-bottom: 150px;
+}
+.project_content .title{
+  line-height: 30px;
+  font-size: 20px;
+  color: #004280
+}
+
+.project_content .title a{
+  vertical-align: middle;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  background: url('/resource/images/project/back_to_list_icon.jpg') no-repeat;
+}
+.project_content p{
+  margin-top: 35px;
+  line-height: 24px;
+}
